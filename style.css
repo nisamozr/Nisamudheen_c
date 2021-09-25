@@ -1020,21 +1020,50 @@ xclip
 }
 
 .hoverbutton {
-    background-color: #333333;
+    /* background-color: #333333; */
     position: absolute;
     color: #ffffff !important;
-    top: 70%;
+    top: 90%;
+  
     font-size: 21px;
     z-index: 12;
     left: 0;
     opacity: 0;
     right: 0;
-    width: 50px;
-    height: 50px;
+    /* width: 50px;
+    height: 50px; */
     line-height: 50px;
     text-align: center;
-    margin: -20px auto;
+    /* margin: -20px auto; */
 }
+.pp{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+    
+}
+.pp a{
+    text-decoration: none;
+}
+.live{
+    
+    background-color: rgb(223, 205, 205);
+    color: rgb(121, 113, 113);
+    border-radius: 5px;
+    
+
+}
+
+.code{
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+
 
 .service-widget:hover .hoverbutton {
     opacity: 1;
@@ -2280,4 +2309,5 @@ select.mobile-device {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
 
