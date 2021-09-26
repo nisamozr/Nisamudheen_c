@@ -1813,6 +1813,7 @@ select.mobile-device {
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
     background-color: #f2f3f5;
     padding: 40px 30px;
+   
 }
 
 .contact_form .form-control {
@@ -2308,6 +2309,37 @@ select.mobile-device {
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 10px;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-icon{
+    font-size: 25px;
+    margin-right: 70px;
+    transition: all .5s;
+    color: #ebebeb;
+    
+}
+.social-icon :hover{
+    font-size: 27px;
+    
+    
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 5px; */
+    /* padding: 30px 0; */
+}
+.g{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
