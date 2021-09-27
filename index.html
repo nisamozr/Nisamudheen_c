@@ -521,14 +521,14 @@
         <div class="col-md-8">
           <div class="contact_form">
             <div id="message"></div>
-            <!-- id="contactForm" -->
+            <!-- id="contactForm"  id="submit-form"-->
             <!-- novalidate="novalidate" -->
-            <form id="submit-form">
+            <form   id="contactForm"  novalidate="novalidate">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <input class="form-control" id="name" name="Name" type="text" placeholder="Your Name"
-                      required="required" data-validation-required-message="Please enter your name.">
+                      required="required" data-validation-required-message="Please enter your name."  >
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
@@ -620,13 +620,13 @@
     <script src="js/jquery.vide.js"></script>
 
 </body>
-<script>
+<!-- <script>
 
-  $("#submit-form"/*id of form*/).submit((e) => {
+  $("#contactForm"/*id of form*/).submit((e) => {
     e.preventDefault()
     $.ajax({
       url: "https://script.google.com/macros/s/AKfycbx27srE8dTu4w1B2tI7wVgYSnxexHhWEXnbe4wcLLzPCCOnWkLTPoqBgSyPNW8TN-VfFg/exec",
-      data: $("#submit-form").serialize(),
+      data: $("#contactForm").serialize(),
       method: "post",
       success: function (response) {
         alert("Form submitted successfully")
@@ -640,6 +640,6 @@
     })
   })
 
-</script>
+</script> -->
 
 </html>

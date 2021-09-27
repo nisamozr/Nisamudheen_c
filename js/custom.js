@@ -125,7 +125,7 @@
 
     // CONTACT
     jQuery(document).ready(function() {
-        $('#submit-form').submit(function() {
+        $('#contactForm').submit(function() {
             var action = $(this).attr('action');
             $("#message").slideUp(750, function() {
                 $('#message').hide();
@@ -145,11 +145,12 @@
                     function(data) {
                         document.getElementById('message').innerHTML = data;
                         $('#message').slideDown('slow');
-                        $('#submit-form img.loader').fadeOut('slow', function() {
+                        $('#contactForm img.loader').fadeOut('slow', function() {
                             $(this).remove()
                         });
                         $('#submit').removeAttr('disabled');
-                        if (data.match('success') != null) $('#submit-form').slideUp('slow');
+                        if (data.match('success') != null) $('#contactForm').slideUp('slow');
+                        
                     }
                 );
             });
