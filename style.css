@@ -928,6 +928,10 @@ xclip
     margin-bottom: 0;
     padding-bottom: 0;
 }
+.gg{
+    display: flex;
+    align-items: center;
+}
 
 .message-box h4 {
     text-transform: uppercase;
